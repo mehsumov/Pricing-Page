@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans',
+        sans-serif;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Header */
+
+header {
+    background: #F9FFF2 url(img/Mask\ Group\ 1.png);
+    background-position: 0 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav .nav-links a {
+    color: #8E8E8E;
+    padding: 5px 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.nav-links a:hover {
+    background-color: #410FF8;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+header .banner {
+    min-height: 45vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .header-text {
+    width: 50%;
+}
+
+/* Section */
+
+section .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+section .col {
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    min-width: 30%;
+    padding: 20px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color ease .6s, color ease.6s,box-shadow ease .6s;
+    -webkit-transition: background-color ease .6s, color ease.6s,box-shadow ease .6s;
+    -moz-transition: background-color ease .6s, color ease.6s,box-shadow ease .6s;
+    -ms-transition: background-color ease .6s, color ease.6s,box-shadow ease .6s;
+    -o-transition: background-color ease .6s, color ease.6s,box-shadow ease .6s;
+}
+
+section .col:hover {
+    background-color: #410FF8;
+    color: white;
+    border-color: #410FF8;
+    box-shadow: 0px 0px 20px 1px rgba(65, 15, 248, 28%)
+}
+
+section .col:hover .button .btn {
+    background-color: white;
+    color: #410FF8;
+}
+
+section .col:hover .check {
+    background-color: white;
+}
+
+
+
+section .col p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section .col h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: -2px;
+}
+
+section .col p.small {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A1;
+    margin-bottom: 5px;
+}
+
+section .col .button {
+    text-align: center;
+}
+
+section .col .btn {
+    background-color: #410FF8;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: all ease .2s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+section .col ul li {
+    display: flex;
+    margin: 15px 0;
+}
+
+.check {
+    margin-right: 10px;
+    background-color: rgba(65, 15, 248, 32%);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color ease .6s;
+    -webkit-transition: background-color ease .6s;
+    -moz-transition: background-color ease .6s;
+    -ms-transition: background-color ease .6s;
+    -o-transition: background-color ease .6s;
+}
